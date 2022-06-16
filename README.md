@@ -41,6 +41,7 @@ Lo que nos interesa cambiar en el archivo de configuración es:
  - Cambiar el *_* de *server_name* a `server_name xavieruno.sistemas.com;`
 
 ![image](https://user-images.githubusercontent.com/91749310/174080664-7c8557cb-09cf-4ced-ba55-10e4953addd0.png)
+
 *Archivo de configuración editado*
 
 Una vez hayamos terminado de editar el documento, presionamos la tecla *ESC* y escribimos `:x` y el damos a *Enter*. Esto nos guardará el archivo y nos sacará del editor *vim*.
@@ -58,6 +59,7 @@ Realizamos el mismo proceso pero con *xavierdos* y recargamos nginx para que tod
 Para que los dominios especificados en la configuración de los sitios web redirijan a nuestro localhost deberemos editar el archivo *hosts* que se encuentra en `/etc/hosts` con el comando `sudo nano /etc/hosts`.
 
 ![image](https://user-images.githubusercontent.com/91749310/174083179-847d36e5-7cd0-46b1-887c-568ba5c18821.png)
+
 Deberemos añadir las dos siguientes líneas:
 
     127.0.0.1 xavieruno.sistemas.com xavieruno
@@ -76,9 +78,11 @@ A continuación, crearemos los archivos HTML situándonos en *xavieruno* y usand
 
 Para comprobar si los sitios web funcionan, nos dirigimos a nuestro navegador y escribimos `xavieruno.sistemas.com` y `xavierdos.sistemas.com`:
 
-![image](https://user-images.githubusercontent.com/91749310/174087219-61a06c09-7cca-459b-b193-9b9d1b4b56f2.png)*xavieruno.sistemas.com*
+![image](https://user-images.githubusercontent.com/91749310/174087219-61a06c09-7cca-459b-b193-9b9d1b4b56f2.png)
+*xavieruno.sistemas.com*
 
 ![image](https://user-images.githubusercontent.com/91749310/174087144-95cd7ce6-1ebc-459a-b4c6-e31f2e4164c9.png)
+
 *xavierdos.sistemas.com*
 
 # Conclusiones
